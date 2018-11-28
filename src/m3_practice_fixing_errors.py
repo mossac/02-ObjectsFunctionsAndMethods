@@ -6,7 +6,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Locate the syntax (notation) errors in this file
 #   by looking for red underlines.
 #
@@ -41,11 +41,11 @@ def main():
 
 def print_math():
     """ Prints some calculated values. """
-    import mat
-    x =
+
+    x = math.cos(3.14)
     print(x)
 
-    y = sin(pi)
+    y = math.sin(3.14)
     print('The sine of PI is', y)
 
 
@@ -56,9 +56,9 @@ def turtle_fun():
     alan.pen = rg.Pen('blue', 30)
     alan.paint_bucket = rg.PaintBucket('yellow')
 
-    alan.back(3 * (47 + 16))
+    alan.backward(3 * (47 + 16))
     alan.begin_fill()
-    alan.circle(25)
+    alan.draw_circle(25)
     alan.end_fill()
 
     alan.forward(200)
