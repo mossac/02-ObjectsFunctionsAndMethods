@@ -21,8 +21,9 @@ def main():
     # comment-out the following two statements and replace them
     # by calls to   better_draw_circles   et al as needed.
     # -------------------------------------------------------------------------
-    even_better_draw_circles(rg.Point(100, 50),15,3,'red',5)
-    even_better_draw_circles(rg.Point(-200, 0),30,10,'blue',8)
+    even_better_draw_circles(rg.Point(150, 100),15,5,'red',5)
+    even_better_draw_circles(rg.Point(-150, 100),15,5,'red',8)
+    even_better_draw_circles(rg.Point(0, 0), 15, 10, 'blue', 8)
 
     window.update()
     window.close_on_mouse_click()
